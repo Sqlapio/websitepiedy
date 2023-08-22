@@ -87,18 +87,18 @@ a {
 }
 
 a:hover {
-	color: #f3b200;
+	color: #e1a3b0;
 	text-decoration: none;
 }
 
 a:focus {
-	color: #f3b200;
+	color: #e1a3b0;
 	outline: none;
 	text-decoration: none;
 }
 
 a:active {
-	color: #f3b200;
+	color: #e1a3b0;
 	outline: none;
 	text-decoration: none;
 }
@@ -111,24 +111,24 @@ textarea {
 	background-color: transparent;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
-	border-radius: 0;
+	border-radius: 25px;
 	border-top: none;
 	border-right: 0;
 	border-left: 0;
-	border-bottom: 2px solid #e5e5e5;
+	border: 2px solid #e5e5e5;
 	font-size: 13px;
-	color: #a9a9a9;
+	color: #ffffff;
 	line-height: 49px;
 	height: 49px;
 	margin-bottom: 50px;
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
-	padding-left: 0;
+	padding-left: 13px;
 }
 
 .form-control:focus {
-	border-bottom-color: #e1a3b0;
+	border-color: #e1a3b0;
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
@@ -308,6 +308,10 @@ p {
 
 .font-40 {
 	font-size: 40px;
+}
+
+.font-25 {
+	font-size: 25px;
 }
 
 .font-secondary {
@@ -499,6 +503,10 @@ footer {
 /* top margin */
 .mt-0 {
 	margin-top: 0;
+}
+
+.mt-5 {
+	margin-top: 5px;
 }
 
 .mt-xs {
@@ -1091,9 +1099,9 @@ section {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background-color: #2f2f2f;
+	background-color: #e1a3b0;
 	color: #fff;
-	border: 2px solid #2f2f2f
+	border: 2px solid #e1a3b0
 }
 
 .btn-primary:hover::before,
@@ -1103,16 +1111,16 @@ section {
 
 .btn-secondary {
 	background-color: transparent;
-	color: #2f2f2f;
-	border: 2px solid #2f2f2f
+	color: #e1a3b0;
+	border: 2px solid #e1a3b0
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus,
 .btn-secondary:active {
-	background-color: #2f2f2f;
+	background-color: #e1a3b0;
 	color: #fff;
-	border: 2px solid #2f2f2f
+	border: 2px solid #e1a3b0
 }
 
 .btn-secondary:hover::before,
@@ -1123,7 +1131,7 @@ section {
 .btn-primary.btn-white {
 	background-color: #fff;
 	border-color: #fff;
-	color: #2f2f2f;
+	color: #e1a3b0;
 }
 
 .btn-primary.btn-white:hover::before,
@@ -1134,9 +1142,9 @@ section {
 .btn-primary.btn-white:hover,
 .btn-primary.btn-white:focus,
 .btn-primary.btn-white:active {
-	background-color: #2f2f2f;
+	background-color: #e1a3b0;
 	color: #fff;
-	border: 2px solid #2f2f2f
+	border: 2px solid #e1a3b0
 }
 
 .btn-primary.btn-black {
