@@ -636,6 +636,10 @@ footer {
 	margin-left: 80px;
 }
 
+.ml-15 {
+	margin-left: 15px;
+}
+
 .ml-30 {
 	margin-left: 30px !important;
 }
@@ -651,6 +655,7 @@ footer {
 .ml-150 {
 	margin-left: 150px;
 }
+
 
 /* All padding */
 .p-0 {
