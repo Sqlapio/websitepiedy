@@ -119,7 +119,7 @@ textarea {
 	font-size: 13px;
 	color: #000000;
 	line-height: 49px;
-	height: 49px;
+	height: 38px;
 	margin-bottom: 50px;
 	box-shadow: none;
 	-moz-box-shadow: none;
@@ -128,7 +128,7 @@ textarea {
 }
 
 .form-control:focus {
-	border-color: #BD9C95;
+	border-color: #FFF;
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
@@ -300,6 +300,10 @@ p {
 
 .font-body {
 	font-family: 'Raleway', sans-serif;
+}
+
+.font-15 {
+	font-size: 15px;
 }
 
 .font-18 {
@@ -9134,7 +9138,8 @@ td.cart-product-quantity {
 #CONTACT-PAGE
 \*------------------------------------*/
 .contact {
-	padding-top: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .contact .widgets-contact {
