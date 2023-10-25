@@ -991,6 +991,15 @@ section {
 	height: 100%;
 }
 
+.bg-section-pt {
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-attachment: local;
+}
+
 .bg-overlay:before {
 	content: "";
 	display: inline-block;
@@ -1120,21 +1129,21 @@ section {
 
 .btn-secondary {
 	background-color: transparent;
-	color: #BD9C95;
-	border: 2px solid #BD9C95
+	color: #7797A4;
+	border: 2px solid #7797A4
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus,
 .btn-secondary:active {
-	background-color: #BD9C95 !important;
+	background-color: #7797A4 !important;
 	color: #fff;
-	border: 2px solid #BD9C95 !important
+	border: 2px solid #7797A4 !important
 }
 
 .btn-secondary:hover::before,
 .btn-secondary:hover::after {
-	background-color: #BD9C95;
+	background-color: #7797A4;
 }
 
 .btn-primary.btn-white {
@@ -1276,7 +1285,7 @@ section {
 	font-family: fontawesome;
 	font-size: 10px;
 	color: #fff;
-	background-color: #BD9C95;
+	background-color: #7797A4;
 	text-align: center;
 	width: 30px;
 	height: 30px;
@@ -1288,7 +1297,7 @@ section {
 
 .accordion .panel-heading .accordion-toggle.collapsed:after {
 	content: "\f067";    /* symbol for "collapsed" panels */
-	color: #BD9C95;
+	color: #7797A4;
 	background-color: transparent;
 }
 
@@ -3422,7 +3431,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 
 .heading p:first-child {
 	font-size: 14px;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	color: #5a5a5a;
 	font-weight: 500;
 	line-height: 1;
@@ -3435,9 +3444,9 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	font-size: 14px;
 	font-weight: normal;
 	color: #828282;
-	font-family: 'Droid Serif', serif;
-	font-style: italic;
-	line-height: 23px;
+	/* font-family: 'Droid Serif', serif; */
+	/* font-style: italic; */
+	line-height: 25px;
 }
 
 .heading-bg {
@@ -3654,6 +3663,11 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) and (max-width : 479px) {
 
+.page-title {
+	padding-top: 57px;
+	padding-bottom: 50px;
+}
+
 .page-title h2 {
 	font-size: 30px;
 }
@@ -3684,6 +3698,11 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px)and (max-width : 767px ) {
+
+.page-title {
+	padding-top: 57px;
+	padding-bottom: 50px;
+}
 
 .page-title h2 {
 	font-size: 36px;
@@ -5424,7 +5443,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 .service-1 .service-content > img {
 	position: absolute;
 	left: 0;
-	padding-top: 30px;
+	/* padding-top: 30px; */
 	padding-left: 20px;
 }
 
