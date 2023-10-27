@@ -1000,6 +1000,8 @@ section {
 	background-attachment: local;
 }
 
+
+
 .bg-overlay:before {
 	content: "";
 	display: inline-block;
@@ -2342,6 +2344,15 @@ transform: scale(1.0);
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) and (max-width : 767px) {
 
+	.bg-section-pt {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
+
 .navbar-nav {
 	margin: 0;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -2747,6 +2758,23 @@ ul.mega-menu {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) and (max-width : 991px) {
+
+	.bg-section-pt {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.service-1 .service-content > img {
+		display: none;
+	}
+
+	.service-1 .service-desc {
+		padding-left: 0px !important;
+	}
 
 .navbar-header {
 	float: none !important;
@@ -3382,6 +3410,15 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 992px) and (max-width : 1200px) {
 
+	.bg-section-pt {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
+
 .navbar-nav > li {
 	margin-right: 16px
 }
@@ -3512,7 +3549,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 }
 
 .heading h2 {
-	font-size: 30px
+	font-size: 23px
 }
 
 .heading-bg.heading-right:before,
@@ -3540,6 +3577,10 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 .heading-bg.heading-right h2,
 .heading-bg.heading-right p {
 	text-align: left;
+}
+
+.heading h2 {
+	font-size: 27px
 }
 }
 
@@ -5891,6 +5932,7 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 .service-5 .service-block,
 .service-7 .service-block {
 	margin-bottom: 30px;
+	
 }
 
 .service-1 .service-block:last-of-type,
@@ -5967,11 +6009,18 @@ li.dropdown-submenu.pull-left > ul.dropdown-menu {
 	width: 100%;
 }
 
+.service-1 .service-desc {
+    padding-left: 18%;
+}
+
 .service-1 .service-block,
 .service-3 .service-block,
 .service-5 .service-block,
 .service-7 .service-block {
 	margin-bottom: 30px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .service-2 .nav-tabs {
@@ -7752,6 +7801,11 @@ ul.comments-list ul.comment-children {
 .entry-bio .entry-bio-desc a {
 	margin-right: 20px;
 }
+
+ .video {
+	width: 250px;
+	height: 182px;
+ }
 }
 
 /* Small Devices, Tablets */
