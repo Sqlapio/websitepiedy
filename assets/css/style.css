@@ -1000,6 +1000,8 @@ section {
 	background-attachment: local;
 }
 
+
+
 .bg-overlay:before {
 	content: "";
 	display: inline-block;
@@ -2341,6 +2343,15 @@ transform: scale(1.0);
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) and (max-width : 767px) {
+
+	.bg-section-pt {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
 
 .navbar-nav {
 	margin: 0;
