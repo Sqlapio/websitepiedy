@@ -54,7 +54,8 @@ html {
 }
 
 body {
-	background-color: #fff;
+	background-image: url(../../assets/images/web-new/FONDO-PLANTILLA-WEB.png);
+	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
@@ -9376,8 +9377,8 @@ footer hr {
 }
 
 .widgets-links {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .widgets-links h5 {
@@ -9948,4 +9949,44 @@ footer hr {
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
+}
+
+/* web new */
+
+.bg-image-1 {
+	background-image: url(../../assets/images/web-new/PAGINA-1.png);
+	background-size: contain;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-image-2 {
+	background-image: url(../../assets/images/web-new/PAGINA-2.1.png);
+	background-size: contain;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-image-3 {
+	background-image: url(../../assets/images/web-new/PAGINA-3.1.png);
+	background-size: contain;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-image-contact {
+	background-image: url(../../assets/images/web-new/CONTACTANOS.png);
+	background-size: 100% ;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg-p {
+	/* background-image: url(../../assets/images/web-new/QUIROPEDIA-MEDICA.png); */
+	background-size: contain;
+    height: 200px;
 }
