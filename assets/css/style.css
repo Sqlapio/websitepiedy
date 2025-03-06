@@ -10072,12 +10072,16 @@ footer hr {
 		width: 100% !important;
 	}
 
+	.width-mb {
+		width: 85% !important;
+	}
+
 	.mt-pag-3 {
 		padding-top: 23px;
 	}
 
 	.font-pag-2 {
-		font-size: 18px;
+		font-size: 18px !important;
 	}
 
 	.img-2-1-mb {
@@ -10091,6 +10095,10 @@ footer hr {
 	.mb-pag-2 {
 
 		margin-bottom: 0 !important;
+	}
+
+	.pd-mb {
+		padding: 0 !important;
 	}
 
 	.text-mb-dat {
